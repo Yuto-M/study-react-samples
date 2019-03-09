@@ -4,7 +4,8 @@
   "description": "react勉強用としては、study-reactと同じだがcreate-react-appを使用しないでreact環境を作成して、reactを試す",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "gulp-postcss": "^8.0.0",
     "gulp-remove-empty-lines": "^0.1.0",
     "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.0.9",
     "gulp-sourcemaps": "^2.6.5",
     "react": "^16.8.4",
