@@ -1,15 +1,12 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Markdown from './component/markdown';
 
-function Test(props) {
-    return (
-        <p>
-            hoge
-        </p>
+
+if (document.getElementById('markdown')) {
+    ReactDOM.render(
+        <Markdown />,
+        document.getElementById('markdown')
     );
 }
 
-ReactDOM.render(
-    <Test />,
-    document.getElementById('sample')
-);

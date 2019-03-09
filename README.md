@@ -6,6 +6,8 @@ react勉強用としては、study-reactと同じだがcreate-react-appを使用
 - reactが動く環境を作る
 - markdownを作る
 - 良さげなサンプルを探す
+- browser-syncがバグっててもパッと見画面上からわからない
+- gulpのタスクがanonymousになる
 
 ## 参考
 - reactで作る
