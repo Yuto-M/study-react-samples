@@ -1,9 +1,6 @@
 import React from 'react';
-
-const scaleNames = {
-    c: 'Celsius',
-    f: 'Fahrenheit'
-};
+import TemperatureInput from './temperature-input';
+import BoilingVerdict from './boiling-verdict';
 
 function toCelsius(fahrenheit) {
     return (fahrenheit - 32) * 5 / 9;
@@ -21,34 +18,6 @@ function tryConvert(temperature, convert) {
     const output = convert(input);
     const rounded = Math.round(output * 1000) / 1000;
     return rounded.toString();
-}
-
-function BoilingVerdict(props) {
-    if (props.celsius >= 100) {
-        return <p>The water would boil.</p>;
-    }
-    return <p>The water would not boil.</p>;
-}
-
-class TemperatureInput extends React.Component {
-    constructor(props) {
-        super(props);
-        this.handleChange = this.handleChange.bind(this);
-    }
-    handleChange(e) {
-        this.props.onTemperatureChange(e.target.value);
-    }
-    render() {
-        const temperature = this.props.temperature;
-        const scale = this.props.scale;
-        return (
-            <fieldset>
-                <legend>Enter temperature in {scaleNames[scale]}:</legend>
-                <input value={temperature}
-                    onChange={this.handleChange} />
-            </fieldset>
-        );
-    }
 }
 
 export default class TemplatureConversion extends React.Component {
