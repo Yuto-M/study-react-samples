@@ -70,20 +70,23 @@ export default class TemplatureConversion extends React.Component {
     render() {
         const scale = this.state.scale;
         const temperature = this.state.temperature;
-        const celcius = scale === 'f' ? tryConvert(temperature, toCelsius) : temperature;
+        const celsius = scale === 'f' ? tryConvert(temperature, toCelsius) : temperature;
         const fahrenheit = scale === 'c' ? tryConvert(temperature, toFahrenheit) : temperature;
 
         return (
             <div>
                 <TemperatureInput
                     scale='c'
-                    temperature={celcius}
+                    temperature={celsius}
                     onTemperatureChange={this.handleCelsiusChange}
                 />
                 <TemperatureInput
                     scale='f'
                     temperature={fahrenheit}
                     onTemperatureChange={this.handleFahrenheitChange}
+                />
+                <BoilingVerdict
+                    celsius={parseFloat(celsius)}
                 />
             </div>
         );
