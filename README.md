@@ -14,5 +14,7 @@ react勉強用としては、study-reactと同じだがcreate-react-appを使用
     - markdown
 https://blog.odoruinu.net/2016/12/09/rendering-markdown-with-remark-react/
 https://github.com/remarkjs/remark-react
+    - 公式サイトの摂氏・華氏変換するやつ
+https://ja.reactjs.org/docs/lifting-state-up.html
     - サンプル集
 https://reactjsexample.com/tag/markdown/
