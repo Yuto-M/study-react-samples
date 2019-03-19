@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 
 export default class Markdown extends React.Component {
     render() {
