@@ -14,10 +14,16 @@ react勉強用としては、study-reactと同じだがcreate-react-appを使用
     - markdown
 https://blog.odoruinu.net/2016/12/09/rendering-markdown-with-remark-react/
 https://github.com/remarkjs/remark-react
-    - 公式サイトの摂氏・華氏変換するやつ
+    - ~~公式サイトの摂氏・華氏変換するやつ~~
 https://ja.reactjs.org/docs/lifting-state-up.html
+    - 公式サイトの動的リスト検索
+https://ja.reactjs.org/docs/thinking-in-react.html
     - サンプル集
 https://reactjsexample.com/tag/markdown/
+
+## 作業中
+動的リスト検索のstep3から
+https://ja.reactjs.org/docs/thinking-in-react.html
 
 ## 調べる・直す
 - keyについて
