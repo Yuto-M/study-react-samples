@@ -18,3 +18,9 @@ https://github.com/remarkjs/remark-react
 https://ja.reactjs.org/docs/lifting-state-up.html
     - サンプル集
 https://reactjsexample.com/tag/markdown/
+
+## 調べる・直す
+- keyについて
+- anonymousになってる
+- {{}}中括弧２つはなに??
+- jsxってどこからどこまでだっけ
