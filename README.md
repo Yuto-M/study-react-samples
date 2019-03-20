@@ -3,11 +3,11 @@
 react勉強用としては、study-reactと同じだがcreate-react-appを使用しないでreact環境を作成して、reactを試す
 
 ## Goal
-- reactが動く環境を作る
+- ~~reactが動く環境を作る~~
 - markdownを作る
 - 良さげなサンプルを探す
 - browser-syncがバグっててもパッと見画面上からわからない
-- gulpのタスクがanonymousになる
+
 
 ## 参考
 - reactで作る
@@ -26,7 +26,7 @@ https://reactjsexample.com/tag/markdown/
 https://ja.reactjs.org/docs/thinking-in-react.html
 
 ## 調べる・直す
-- keyについて
-- anonymousになってる
-- {{}}中括弧２つはなに??
-- jsxってどこからどこまでだっけ
+- ~~keyについて~~
+- ~~anonymousになってる~~
+- ~~{{}}中括弧２つはなに??~~
+https://qiita.com/kuniken/items/b06de893c22f33499a22
